@@ -24,9 +24,13 @@ It supports **backspace (`*`)**, **send (`#`)**, and multi-digit/word sequences 
 {
   "input": "4433555 555666#"
 }
+```
+### **Response Body**
+
+```json
 {
   "output": "HELLO"
 }
-
+```
 
 
