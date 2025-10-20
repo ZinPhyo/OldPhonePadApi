@@ -16,8 +16,10 @@ It supports **backspace (`*`)**, **send (`#`)**, and multi-digit/word sequences 
 ---
 
 ## 🧭 API Overview
+### **POST /OldPhonePad**
 
-### **Endpoint**
+Converts keypad input to text.
+
 ### **Request Body**
 
 ```json
@@ -31,6 +33,17 @@ It supports **backspace (`*`)**, **send (`#`)**, and multi-digit/word sequences 
 {
   "output": "HELLO"
 }
+```
+
+
+---
+
+## 4️⃣ Installation & Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/ZinPhyo/OldPhonePadApi.git
 ```
 
 
