@@ -36,14 +36,3 @@ Converts keypad input to text.
 ```
 
 
----
-
-## 4️⃣ Installation & Usage
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/ZinPhyo/OldPhonePadApi.git
-```
-
-
