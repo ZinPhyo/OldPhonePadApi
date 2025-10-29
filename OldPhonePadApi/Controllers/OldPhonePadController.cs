@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using OldPhonePad.Models;
 using OldPhonePad.Services;
+using OldPhonePadApi.Models.ApiModels;
 
 namespace OldPhonePad.Controllers
 {
@@ -22,7 +22,7 @@ namespace OldPhonePad.Controllers
         {
             return new ApiResponse
             {
-                output = _oldPhonePadService.OldPhonePad(req.input)
+                Output = _oldPhonePadService.OldPhonePad(req.Input)
             };
         }
     }

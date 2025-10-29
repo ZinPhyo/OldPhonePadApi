@@ -1,4 +1,6 @@
 using OldPhonePad.Services;
+using OldPhonePadApi.Helpers.DecodeInput;
+using OldPhonePadApi.Helpers.ValidationInput;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IOldPhonePadService, OldPhonePadService>();
+builder.Services.AddTransient<IValidator, Validator>();
+builder.Services.AddTransient<IDecoder, Decoder>();
 
 var app = builder.Build();
 
